@@ -1,0 +1,21 @@
+.carouselContainer {
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 10px 0 0;
+  margin: auto;
+  max-width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.carouselImg {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+.infImgCarousel {
+  width: 1px;
+  height: 100%;
+}
